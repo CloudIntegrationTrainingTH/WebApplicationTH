@@ -10,7 +10,7 @@ namespace WebApplicationTH.Controllers
     {
         public ActionResult Index()
         {
-            for (Int32 i = 0; i < 500; i++)
+            for (Int32 i = 0; i < 5000; i++)
             {
                 string test = "1";
             }
