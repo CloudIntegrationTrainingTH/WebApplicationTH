@@ -10,6 +10,11 @@ namespace WebApplicationTH.Controllers
     {
         public ActionResult Index()
         {
+            for (Int32 i = 0; i < 500; i++)
+            {
+                string test = "1";
+            }
+
             return View();
         }
 
